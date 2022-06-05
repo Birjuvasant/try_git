@@ -1,0 +1,312 @@
+*{
+  margin:0; 
+  padding:0;
+  box-sizing:border-box;
+}
+
+.heading
+{
+  color: #fa9191;
+  text-align:center;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 0px 2 px 4px #ffe9c5;
+  margin:70px 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.Birju
+{
+  color: #fa9191;
+  text-align:center;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 0px 2 px 4px #ffe9c5;
+  margin:20px 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.line
+{
+  width:20%;
+  margin:0 auto;
+}
+
+
+.img_div
+{
+  display:flex;
+  justify-content:center ;
+}
+
+
+.img_div1
+{
+  display:inherit;
+  justify-content:center ;
+}
+
+.img_div1 img
+{
+  width:250px;
+  height:300px;
+  border:1px solid black;
+}
+
+
+.cards
+{
+  width:100%;
+  height:auto;
+  
+}
+
+.card
+{
+  margin:6%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-color: #ffffff;
+  width:21.25%;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  float:left;
+  
+}
+
+.card:hover
+{
+ box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+ transform: scale(1.05, 1.05);
+}
+
+.card_img
+{
+  width:100%;
+  height:235px;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+
+}
+
+.card_info
+{
+  background-color:#ffffff;
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  padding:16px 24px 24px 24px;
+  
+}
+
+
+.card_category
+{
+ font-family: "Raleway", sans-serif;
+ text-transform: uppercase;
+ font-size:13px;
+ letter-spacing: 2px;
+ font-weight: 500;
+ color:black;
+ background-color: #ffffff;
+ font-weight: bold;
+}
+
+.card_title
+{
+  margin-top:5px;
+  margin-bottom:10px;
+  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
+  text-transform: capitalize;
+}
+
+
+.card_namecategory
+{
+ font-family: "Raleway", sans-serif;
+ text-transform: uppercase;
+ font-size:13px;
+ letter-spacing: 2px;
+ font-weight: 500;
+ color:red;
+ background-color: #ffffff;
+ font-weight: bold;
+}
+
+
+
+.card_sname
+{
+  margin-top:5px;
+  margin-bottom:10px;
+  font-family: "Raleway", sans-serif;
+  background-color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+button
+{
+ padding:5px 8px;
+ font-family: "Raleway", sans-serif;
+ text-transform: uppercase;
+ font-size:13px;
+ letter-spacing: 2px;
+ font-weight: 500;
+ color:#868686;
+ background-color: #ffffff;
+ outline:none;
+ border:1px solid black;
+ cursor:pointer;
+ text-align: center;
+ margin:0 auto;
+}
+
+.forms
+{
+  width:100%;
+  height:50vh;
+  background:#8e44ad;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  margin-top:5%;
+}
+
+
+.formsheader
+{
+  color:white;
+  background:transparent;
+  text-shadow: 0 2px 2px black;
+}
+
+input
+{
+  width:50%;
+  padding:10px 20px;
+  border:none;
+  outline: none;
+  margin:20px 0;
+  text-align:center;
+}
+
+
+
+.main_div
+{
+ width:100%; 
+ height:120vh;
+ background:#6983aa;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ justify-items:center;
+ text-align:center;
+}
+
+.center_div
+{
+  width:25%;
+  height: 80vh;
+  background-color: #f4f4f4;
+  box-shadow:5px 5px 25px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-top:10%;
+}
+
+.center_div h1{
+  color:white;
+  background: transparent;
+  background-color: #8566aa;
+  padding:6px 0px 2px 0;
+  margin-bottom: 10px;
+  box-shadow:5px 5px 15px -5px rgba(0, 0, 0, 0.1);
+
+}
+
+.center_div input 
+{
+  text-align:center;
+  height: 30px;
+  top:10px;
+  border:none;
+  background: transparent;
+  font-size:20px;
+  font-weight: 500;
+  width:60%;
+  border-bottom:2px solid #8566aa;
+  outline: none;
+
+}
+
+.center_div button
+{
+  min-height: 40px;
+  width:40px;
+  border-radius:50%;
+  border-color: transparent;
+  background-color:#8566aa;
+  color:#fff;
+  font-size:40px;
+  border:none;
+  outline:none;
+  margin-left: 10px;
+  box-shadow:5px 5px 15px -5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.center_div button:hover
+{
+  background-color: #20bf6b;
+}
+
+.center_div ol
+{
+  margin-top:30px;
+}
+
+.center_div ol li{
+  padding-left:0px;
+  text-align:left;
+  font-size:20px;
+  font-weight:500;
+  min-height:40px;
+  display:flex;
+  align-items:center;
+  color: #858585;
+  text-transform: capitalize;
+}
+
+.todo_style 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
+.todo_style .fa-times
+{
+  width:20px;
+  height:20px;
+  display: flex;
+  justify-content: center;
+  background-color:#8566aa;
+  border-radius: 50%;
+  margin:0 15px 0 35px;
+  color:aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.1);
+}
+
+.todo_style .fa-times:hover{
+  background-color:crimson;
+}
+
+.todo_style .fa-times:hover .list_style
+{
+  color:crimson;
+}
